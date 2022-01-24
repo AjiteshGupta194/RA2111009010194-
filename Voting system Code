@@ -18,16 +18,18 @@ void castvote(){
       case 2: votescount2++; break;
       case 3: votescount3++; break;
       default: printf("\n Error: Wrong Choice !! Please retry");
-      //hold the screen
+    
       getchar();
    }
+   
    printf("\n thanks for vote !!");
 }
 void votesCount(){
    printf("\n\n Voting Statics ");
    printf("\n %s - %d ", CANDIDATE1, votescount1);
    printf("\n %s - %d ", CANDIDATE2, votescount2);
-   printf("\n %s - %d ", CANDIDATE3, votescount3);
+ printf("\n %s - %d ", CANDIDATE3, votescount3);
+
 }
 int main(){
    int i;
